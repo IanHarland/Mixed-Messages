@@ -5,3 +5,6 @@ const replies = {
 };
 
 let randNum = () => Math.floor(Math.random() * 3);
+
+console.log(replies.first[randNum()] + replies.second[randNum()]);
+console.log(replies.third[randNum()]);
